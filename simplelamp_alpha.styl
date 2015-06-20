@@ -1,0 +1,163 @@
+//@import 's-grid-settings'
+//@import 's-grid-functions'
+//@import 's-grid-classes' // optional - only if you want to use helper classes
+@import url('http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin,cyrillic')
+.s-grid-cell
+  background red
+  max-width 200px
+body
+  margin 0
+  display -webkit-flex
+  font-family 'Ubuntu Mono'
+  -webkit-flex-direction column
+
+random(min,max)
+  return floor(math(0, 'random')*(max - min + 1) + min)
+
+united()
+  position fixed
+  width 100%
+  z-index: 500
+footer
+  display -webkit-flex
+  -webkit-justify-content space-around
+  bottom 0px
+  background pink
+  united()
+  .insr
+  img
+    max-width 100px
+    max-height 100px
+iframe
+  width 100vw
+  height 100vh
+  border none
+  scrolling no
+
+header
+  united()
+  top 0px
+  background peachpuff
+  display -webkit-flex
+  -webkit-justify-content space-between
+main
+  width 100%
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  justify-content	space-around
+  align-items baseline
+  align-content stretch
+
+.contentPlaceholder
+  margin 50px
+.contentPlaceholder:hover
+  -webkit-transform scale(1.5)
+.Placedescr
+  margin 20px
+  text-align justify
+  max-width 200px
+  line-height 100%
+  &:hover
+    -webkit-transform scale(1.5)
+
+.prewVideo
+  padding 50px
+  &:hover
+    -webkit-transform scale(1.5)
+  img
+    width 100px
+    height 100px
+    border-radius 50%
+    &:nth-child(even)
+      -webkit-transform scale(0.5)
+      border-radius 0%
+
+
+
+.logo
+  size = 16px
+  colors  = (sandybrown darksalmon tomato lightpink)
+  width size* 6
+  min-height size* 6
+  display -webkit-flex
+  -webkit-justify-content space-between
+  .coloumn
+    margin size* 0.5
+  .item
+    width size
+    height size
+    margin size* 0.5
+    background white
+    color colors[random(0,3)]
+    text-align center
+    display block
+    -webkit-border-radius 50%
+
+
+.mainclbth
+  size = 10vw
+  position fixed
+  top 0px
+  right 0px
+  width size
+  height size
+  margin size* 0.5
+  border-radius 50%
+  background pink
+  color #333
+  z-index 1000
+  text-align center
+  line-height size* 0.9
+  font-size size* 0.5
+
+.tizer
+  max-width 20vw
+  text-align justifly
+  margin 20px
+  color #333
+  #one
+    background tomato
+  #two
+    background lightpink
+  #three
+    background darksalmon
+
+
+.productView
+  border-radius 50%
+  margin 20px
+  padding 2px
+  border 2px dotted hotpink
+  p
+    width 200px
+    height 200px
+    border-radius 50%
+    position absolute
+    text-align center
+    line-height 190px
+    margin 0
+    color hotpink
+  img
+    width 200px
+    height 200px
+    border-radius 50%
+    text-align center
+    line-height 190px
+    margin 0
+  &:hover
+    -webkit-transform rotateZ(random(1,360)deg) scale(1.2)
+
+.userpanel
+  width 100%
+  height 30px
+  background pink
+  display -webkit-flex
+  -webkit-justify-content space-around
+  position absolute
+  top 0px
+  left 0px
+  p
+    top: 0px;
+    line-height 30px
+    margin 0px

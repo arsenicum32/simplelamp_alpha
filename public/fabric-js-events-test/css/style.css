@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin,cyrillic);
+body {
+  margin: 0;
+  font-family: 'Ubuntu Mono';
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.highlight {
+  background: hotpink;
+  -webkit-transform: scale(1.5);
+}
+
+#my-gui-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#alerts {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  background: pink;
+  color: #333;
+}
+
+.dg.main.taller-than-window .close-button {
+  border-top: 1px solid #ddd !important;
+}
+
+.dg.main .close-button {
+  background-color: #ccc !important;
+}
+
+.dg.main .close-button:hover {
+  background-color: #ddd !important;
+}
+
+.dg {
+  color: #555 !important;
+  text-shadow: none !important;
+  font-family: 'Ubuntu Mono' !important;
+  font-size: 15px !important;
+}
+
+.dg.main::-webkit-scrollbar {
+  background: #fafafa !important;
+}
+
+.dg.main::-webkit-scrollbar-thumb {
+  background: #bbb;
+}
+
+.dg li:not(.folder) {
+  background: #fafafa !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
+.dg li.save-row .button {
+  text-shadow: none !important;
+}
+
+.dg li.title {
+  background-image: url(http://placehold.it/100X100) 6px 10px no-repeat;
+}
+
+.dg .cr.function:hover, .dg .cr.boolean:hover {
+  background: #fff !important;
+}
+
+.dg .c input[type=text] {
+  background: #e9e9e9;
+}
+
+.dg .c input[type=text]:hover {
+  background: #eee;
+}
+
+.dg .c input[type=text]:focus {
+  background: #eee;
+  color: #555;
+}
+
+.dg .c .slider {
+  background: #e9e9e9;
+}
+
+.dg .c .slider:hover {
+  background: #eee;
+}

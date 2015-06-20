@@ -1,0 +1,23 @@
+<!-- {{#if loggingIn}}
+   <p> {{currentUser.profile.login}} </p>
+   <img src="{{currentUser.profile.avatar_url}}" />
+   {{else}}
+{{/if}}
+<p>fuck</p> -->
+
+<template name='loggin' >
+  {{#if loggingIn}}
+  <p>loading....</p>
+  {{else}}
+  <p>log in</p>
+  {{currentUser.profile.login}}
+  <img src="{{currentUser.profile.avatar_url}}" />
+  {{/if}}
+</template>
+
+
+
+
+<template name='loggout' >
+  <p>...</p>
+</template>

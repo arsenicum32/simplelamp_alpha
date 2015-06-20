@@ -1,0 +1,3 @@
+Template.productView.rendered = function(){
+
+};

@@ -1,0 +1,8 @@
+<template name='productView'>
+  <div style='position: absolute; color:#333; left: 0; background: lightpink; min-width: 30vw; height:100vh;'> product view  = {{infocallback.all}}</div>
+  {{#each infocallback.arr}}
+  <div style='width:100vw;height:100vh;background-size:cover;background-position:center center; background-repeat:no-repeat;background-image:url({{this}})'>
+  </div>
+  <!-- <img src={{this}} class='productImage' /> -->
+  {{/each}}
+</template>

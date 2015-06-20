@@ -1,0 +1,35 @@
+<template name='main'>
+  <main>
+
+    <p style='background: hotpink; max-width: 100px; text-align: justify; position: fixed; left:0px; top: 15vw; visibility:hidden;' id='inLOTO' class="tooltlip">
+      кликните, если выпадет деталька, приедьте к нам на чай и заберите её</p>
+
+      
+
+  {{#if mainView.m}}
+    <div style=' width:100vw; height:20vh;' ></div>
+    {{#each placeholders}}
+        {{> contentPlaceholders}}
+    {{/each}}
+  {{else}}
+    {{> mainclbth}}
+    {{#if mainView.v}}
+      {{> fullscreenVideo }}
+    {{else}}
+      {{#if mainView.allUsers}}
+        {{> allusers}}
+      {{else}}
+        {{#if mainView.brand}}
+          {{> brandbook}}
+        {{else}}
+          {{#if mainView.pr}}
+            {{> productView}}
+          {{else}}
+            {{> landing}}
+          {{/if}}
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/if}}
+  </main>
+</template>

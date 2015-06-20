@@ -1,0 +1,20 @@
+<template name='videoContentHead'>
+  <div style='display: -webkit-flex; -webkit-flex-wrap: wrap; width: 70vw; margin: 12px'>
+  {{#each placeholders}}
+      {{#if trust.vid}}
+      <style>
+      .coomon img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 20px;
+      }
+      </style>
+      <div class='coomon'>
+        <img style='' src='video/{{prewName}}.gif' supername='one' videoname={{name}} />
+        <!-- <img style='' src='video/playbutton.png' supername='one' videoname='rotate' /> -->
+      </div>
+      {{/if}}
+  {{/each}}
+</div>
+</template>

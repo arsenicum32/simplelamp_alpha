@@ -1,0 +1,29 @@
+<template name='contentPlaceholders'>
+  {{#if trust.pl}}
+  <div class='contentPlaceholder' supername='one'>
+    <img src={{image}} style="width:{{size}}px;height:{{size}}px" supername={{super}} />
+  </div>
+  {{else}}
+    {{#if trust.des}}
+    <a href="http://arsenicum32.ru"><div supername={{super}} class='Placedescr' style='background:{{color}}; border-radius:50%; width: 200px; height:200px; text-align: center; line-height: 150px'>
+      <!-- <p supername={{super}}>{{title}}</p> -->
+      <h6 supername={{super}}>{{text}}</h6>
+    </div>
+    </a>
+    {{else}}
+      {{#if trust.vid}}
+      <div class='prewVideo'>
+        <img style='' src='video/{{prewName}}.gif' supername='one' videoname={{name}} />
+        <!-- <img style='' src='video/playbutton.png' supername='one' videoname='rotate' /> -->
+      </div>
+      {{else}}
+        {{#if trust.pr}}
+        <div class='productView' style="" PD={{prData}} >
+          <p supername='two' style='' PD={{prData}}> product shape esg egsseg </p>
+           <img supername='two'   style='' src={{image}} PD={{prData}} />
+        </div>
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/if}}
+</template>

@@ -1,0 +1,19 @@
+<template name='header'>
+  <header>
+    {{> logo}}
+
+    {{#if showContent.a}}
+        {{> contentProduct}}
+    {{else}}
+      {{#if  showContent.v }}
+        {{> videoContentHead}}
+        {{else}}
+          {{#if  showContent.pl }}
+            {{> contentPlaceholderHead}}
+          {{/if}}
+      {{/if}}
+    {{/if}}
+
+    {{> tizer}}
+  </header>
+</template>

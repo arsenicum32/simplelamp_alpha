@@ -1,0 +1,97 @@
+<template name='allusers'>
+  {{> mainclbth}}
+
+  <div style="" class="userpanel">{{> loginButtons}}
+  {{#if currentUser}}
+    {{> loggin}}
+  {{else}}
+    {{> loggout}}
+  {{/if}}
+  </div>
+
+  <style>
+.ContactList {
+  padding: 10em 2rem 0;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.ContactList .Contact {
+  margin-bottom: 1.5rem;
+}
+
+.Contact-avatar {
+  margin: 0 1em 0 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #a7c031;
+  -webkit-flex-shrink: 0;
+}
+
+.Contact-name {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: darkgray;
+}
+
+@media (min-width: 400px) {
+  .ContactList {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+
+
+  .ContactList {
+    padding-top: 6rem;
+  }
+
+  .Contact {
+    width: calc(100% * 1/3 - 2rem);
+  }
+}
+
+
+  </style>
+
+  <div class="ContactList">
+  <section class="Contact">
+    <img class="Contact-avatar" src="avatars/mask-1919.jpg" />
+    <h5 class="Contact-name">Amanda Smith</h5>
+  </section>
+  <section class="Contact">
+    <img class="Contact-avatar" src="avatars/mask-for-firdusi-1918.jpg" />
+    <h5 class="Contact-name">Amanda Smith</h5>
+  </section>
+  <section class="Contact">
+    <img class="Contact-avatar" src="avatars/untitled-mask-portrait-of-tzara-1919.jpg" />
+    <h5 class="Contact-name">Amanda Smith</h5>
+  </section>
+</div>
+
+</template>
