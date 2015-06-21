@@ -71,6 +71,18 @@ for (var n=0;n<10;n++){
 
 PLACEHOLDERS = shuffle(PLACEHOLDERS);
 
+COLORS = {
+	"gray": "font-weight: bold; color: #1B2B34;",
+	"red": "font-weight: bold; color: #EC5f67;",
+	"orange": "font-weight: bold; color: #F99157;",
+	"yellow": "font-weight: bold; color: #FAC863;",
+	"green": "font-weight: bold; color: #99C794;",
+	"teal": "font-weight: bold; color: #5FB3B3;",
+	"blue": "font-weight: bold; color: #6699CC;",
+	"purple": "font-weight: bold; color: #C594C5;",
+	"brown": "font-weight: bold; color: #AB7967;"
+};
+
 
 landingContent = {mainImage: 'landing/main.png',
 pre:'Сообщество любителей собирать электронные устройства. Разделим эту фразу на три части, что-бы понять, что же это значит',

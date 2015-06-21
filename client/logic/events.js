@@ -36,6 +36,9 @@ Template.address.events({
   }
 });
 Template.contentProduct.events({
+  'click': function(){
+    alert('keypress');
+  }
 });
 Template.contentVideo.events({
 });

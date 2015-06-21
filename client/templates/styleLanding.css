@@ -3044,16 +3044,11 @@ body{
     width: 50%;
 }
 
-.t128 .box:hover .wrappper {
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
-}
 
 .t128 .wrappper {
     display: table-cell;
     width: 100%;
     height: 100%;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.77);
     -webkit-transition: opacity 0.25s ease-in-out;
@@ -3175,7 +3170,6 @@ body{
 
 @media screen and (max-width:1024px) {
     .t128 .wrappper {
-        filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
         opacity: 1;
         background-color: rgba(0, 0, 0, 0.3);
     }
@@ -3332,7 +3326,7 @@ body{
     }
 
     .t129 p {
-   
+
         font-size: 14px;
         line-height: 18px;
     }
@@ -5047,7 +5041,7 @@ body{
         font-size: 28px;
         color: #000000;
         line-height: 36px;
-   
+
         font-weight: 300;
         margin: 0px 20px;
     }
@@ -7800,10 +7794,10 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 .lr_col_11.flexx,
 .lr_col_12.flexx
 {
-	align-items:stretch; 
-	height:inherit; 
+	align-items:stretch;
+	height:inherit;
 	margin-top:auto;
-	margin-bottom:auto;	
+	margin-bottom:auto;
 }
 
 .lr_col_1 { max-width: 60px; }
@@ -7823,18 +7817,18 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 
 .lr_col_50
 {
-	display: table-cell;	
-    vertical-align: middle;    
+	display: table-cell;
+    vertical-align: middle;
     height: 100%;
-	width: 50vw;  
+	width: 50vw;
 }
 
 .lr_col_100
 {
-	display: table-cell;	
-    vertical-align: middle;    
+	display: table-cell;
+    vertical-align: middle;
     height: 100%;
-	width: 100vw;   
+	width: 100vw;
 }
 
 .prefix_1 { padding-left: 100px; }
@@ -7884,13 +7878,13 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 .lr_width_col_100 { max-width: 100%; }
 
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1200px) {
 
 	.container {
 		max-width: 960px;
 		padding: 0;
-	}	
-	
+	}
+
 	.lr_col,
 	.lr_col_1,
 	.lr_col_2,
@@ -7911,7 +7905,7 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 	  margin-right: 10px;
 	  width: 100%;
 	}
-	
+
 	.lr_col_1 { max-width: 60px; }
 	.lr_col_2 { max-width: 140px; }
 	.lr_col_3 { max-width: 220px; }
@@ -7924,7 +7918,7 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 	.lr_col_10 { max-width: 780px; }
 	.lr_col_11 { max-width: 860px; }
 	.lr_col_12 { max-width: 940px; }
-	
+
 	.prefix_1 { padding-left: 80px; }
 	.prefix_2 { padding-left: 160px; }
 	.prefix_3 { padding-left: 240px; }
@@ -7937,7 +7931,7 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 	.prefix_10 { padding-left: 800px; }
 	.prefix_11 { padding-left: 880px; }
 	.prefix_12 { padding-left: 960px; }
-	
+
 	.lr_width_col_1 { max-width: 60px; }
 	.lr_width_col_2 { max-width: 140px; }
 	.lr_width_col_3 { max-width: 220px; }
@@ -7951,20 +7945,20 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 	.lr_width_col_11 { max-width: 860px; }
 	.lr_width_col_12 { max-width: 940px; }
 	.lr_width_col_100 { max-width: 100%; }
-	
+
 }
 
 
-@media screen and (max-width: 960px) { 
+@media screen and (max-width: 960px) {
 
 	.container {
 		max-width: 640px;
-	}	
-	
+	}
+
 	.container.flexx {
 		display:block;
 	}
-	
+
 	.lr_col,
 	.lr_col_1,
 	.lr_col_2,
@@ -7986,9 +7980,9 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 	  margin: 0;
 	  width: 100%;
 	  max-width: 100%;
-	  box-sizing: border-box;	
+	  box-sizing: border-box;
 	}
-	
+
 	.prefix_1,
 	.prefix_2,
 	.prefix_3,
@@ -8001,9 +7995,8 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, b, u, i, ce
 	.prefix_10,
 	.prefix_11,
 	.prefix_12
-	{ 
+	{
 	  padding-left: none;
-	}	
-	
-}
+	}
 
+}

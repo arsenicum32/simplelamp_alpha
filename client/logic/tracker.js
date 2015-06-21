@@ -6,6 +6,7 @@ Tracker.autorun(function () {
   var showMain = Session.get('mainView')=='main';
   var showVideo = Session.get('mainView')=='one';
 
+
   if(showMain){
     $('header').css('visibility','visible');
     $('footer').css('visibility','visible');

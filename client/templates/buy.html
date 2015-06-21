@@ -1,0 +1,36 @@
+<template name='buy'>
+  <style>
+  .buyDialog{
+    width: 80%;
+    position: fixed;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: pink;
+    z-index: 2000;
+    opacity: 0.75;
+  }
+  .textInput{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    background: transparent;
+    -webkit-appearance:none;
+    outline:0px none transparent;
+    border: transparent;
+    font-size: 1em;
+    color: #333;
+    font-family: 'Ubuntu Mono';
+  }
+  textarea:focus, input:focus{
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+  </style>
+  <div class='buyDialog'>
+    <textarea class="textInput" placeholder="hello man" id='textInput' autofocus> &#10;&#10;&#10;{{text}}</textarea>
+  </div>
+</template>

@@ -4,8 +4,11 @@
     <p style='background: hotpink; max-width: 100px; text-align: justify; position: fixed; left:0px; top: 15vw; visibility:hidden;' id='inLOTO' class="tooltlip">
       кликните, если выпадет деталька, приедьте к нам на чай и заберите её</p>
 
-      
 
+  {{#if showBuy}}
+    {{> buy}}
+  {{/if}}
+  
   {{#if mainView.m}}
     <div style=' width:100vw; height:20vh;' ></div>
     {{#each placeholders}}

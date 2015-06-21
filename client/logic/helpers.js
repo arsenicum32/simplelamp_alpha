@@ -20,6 +20,9 @@ Template.main.helpers({
       brand: Session.get('mainView')=='brandbook',
       pr: Session.get('mainView')=='two'
     };
+  },
+  'showBuy': function(){
+    return Session.get('showBuy');
   }
 });
 
@@ -97,5 +100,11 @@ Template.contentPlaceholderHead.helpers({
       {name: 'duck647',message: 'all good!'},
       {name: 'miss',message: 'yes!'}
     ];
+  }
+});
+
+Template.buy.helpers({
+  text: function(){
+    return Session.get('textBuy');
   }
 });
