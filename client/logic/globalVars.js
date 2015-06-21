@@ -63,6 +63,7 @@ for (var n=0;n<10;n++){
 PLACEHOLDERS.push({name: 'rotate', prewName: 'rotate' , trust: {pl:false,pr:false,des:false,vid:true,us:false} });
 PLACEHOLDERS.push({name: 'anyone', prewName: '10' , trust: {pl:false,pr:false,des:false,vid:true,us:false} });
 PLACEHOLDERS.push({name: 'create', prewName: 'create' , trust: {pl:false,pr:false,des:false,vid:true,us:false} });
+PLACEHOLDERS.push({name: 'movie-HD', prewName: '849613' , trust: {pl:false,pr:false,des:false,vid:true,us:false} });
 
 
 for (var n=0;n<10;n++){
