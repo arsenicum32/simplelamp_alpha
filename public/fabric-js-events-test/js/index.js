@@ -141,7 +141,7 @@
       onChange: canvas.renderAll.bind(canvas),
       duration: 1000,
       easing: fabric.util.ease.easeOutElastic
-        //easeInCubic, easeOutCubic, easeInElastic, easeOutElastic, easeInBounce, easeOutExpo 
+        //easeInCubic, easeOutCubic, easeInElastic, easeOutElastic, easeInBounce, easeOutExpo
     });}
   });
    */
@@ -184,7 +184,7 @@
 
 
   /*(function animate() {
-      canvas.item(0).animate('top', canvas.item(0).getTop() === 500 ? '100' : '500', { 
+      canvas.item(0).animate('top', canvas.item(0).getTop() === 500 ? '100' : '500', {
         duration: 1000,
         onChange: canvas.renderAll.bind(canvas),
         onComplete: animate
@@ -444,19 +444,19 @@
           y: 300,
           s: 0.5
         };
-        addImAfterTwenty('http://placehold.it/300x300', 24);
+        addImAfterTwenty('../../logo/ll.jpg', 24);
         arrayPsImageAdder[23] = {
           x: 100,
           y: 300,
           s: 0.5
         };
-        addImAfterTwenty('http://placehold.it/300x300', 23);
+        addImAfterTwenty('../../logo/ll2.jpg', 23);
         arrayPsImageAdder[25] = {
           x: 100,
           y: 500,
           s: 0.5
         };
-        return addImAfterTwenty('http://placehold.it/300x300', 25);
+        return addImAfterTwenty('../../logo/ll2.jpg', 25);
       case 26:
         arrayPsImageAdder[26] = {
           x: 300,

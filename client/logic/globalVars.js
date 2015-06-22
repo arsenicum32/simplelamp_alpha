@@ -66,7 +66,7 @@ PLACEHOLDERS.push({name: 'create', prewName: 'create' , trust: {pl:false,pr:fals
 PLACEHOLDERS.push({name: 'movie-HD', prewName: '849613' , trust: {pl:false,pr:false,des:false,vid:true,us:false} });
 
 
-for (var n=0;n<10;n++){
+for (var n=0;n<4;n++){
   PLACEHOLDERS.push({image:'product/prod1.gif',text: 'description', prData: '000:9' ,trust: {pl:false,pr:true,des:false,vid:false,us:false}});
 }
 
